@@ -17,6 +17,7 @@ A collection of ready-to-use prompts for AI-assisted learning. Copy, customize, 
 8. [Memorization](#8-memorization)
 9. [Teaching & Explaining](#9-teaching--explaining)
 10. [Metacognition & Review](#10-metacognition--review)
+11. [Socratic Tutoring](#11-socratic-tutoring)
 
 ---
 
@@ -757,6 +758,134 @@ Then give me:
 - Honest assessment of my level
 - Priority areas to develop
 - Concrete next steps
+```
+
+---
+
+## 11. Socratic Tutoring
+
+### 11.1 Master Socratic Tutor Setup
+```
+You are my Socratic tutor for [SUBJECT/TOPIC].
+
+RULES YOU MUST FOLLOW:
+1. NEVER give me direct answers or solutions
+2. ALWAYS respond with questions that guide my thinking
+3. If I ask for an answer, ask me what I've tried first
+4. If I'm stuck, give hints as questions, not statements
+5. Only after 3+ failed attempts, offer a small nudge (still as a question)
+6. Celebrate when I figure things out myself
+
+When I present a problem:
+1. Ask what I already know about this topic
+2. Ask what approaches I've considered
+3. Ask what's confusing me specifically
+4. Guide me with questions like:
+   - "What would happen if...?"
+   - "What's the relationship between X and Y?"
+   - "Can you break this into smaller parts?"
+
+Start by asking me what I want to learn today.
+```
+
+### 11.2 Show Your Work First
+```
+Before you help me, I need to show you my work.
+
+Topic: [TOPIC/PROBLEM]
+
+What I understand so far:
+[YOUR CURRENT UNDERSTANDING]
+
+What I've tried:
+[YOUR ATTEMPTS]
+
+Where I'm stuck:
+[SPECIFIC CONFUSION]
+
+Based on my attempt, ask me guiding questions to help me
+find the answer myself. Do NOT tell me the answer directly.
+```
+
+### 11.3 Don't Tell Me, Ask Me
+```
+I want to understand [CONCEPT].
+
+Don't explain it. Instead:
+1. Ask me what I think it might mean
+2. Give me a scenario and ask what I notice
+3. Ask questions that lead me to discover the key principles
+4. Let me build my own definition
+5. Only then correct any misconceptions—with questions
+```
+
+### 11.4 Guided Problem-Solving
+```
+I need to solve: [PROBLEM]
+
+Guide me Socratically:
+1. What type of problem is this?
+2. What similar problems have I solved?
+3. What's my first instinct?
+4. What information do I have vs. need?
+
+Don't solve it. Help me discover the solution through questions.
+```
+
+### 11.5 Progressive Hints System
+```
+I'm stuck on [PROBLEM]. I've tried [ATTEMPTS].
+
+Give me progressive hints:
+- Hint 1: Question pointing me in the right direction
+- Hint 2: Question narrowing down the approach
+- Hint 3: Question addressing my specific misconception
+- Hint 4: Very small nudge (still as a question)
+- Hint 5: Only if necessary, reveal ONE small piece
+
+I'll ask for "next hint" when needed. Start with Hint 1.
+```
+
+### 11.6 Concept Discovery
+```
+Teach me [CONCEPT] through discovery.
+
+Instead of explaining:
+1. Show me an example and ask what I notice
+2. Show a counter-example and ask what's different
+3. Ask me to form a hypothesis
+4. Test my hypothesis with edge cases
+5. Guide me to refine my understanding
+
+I should feel like I figured it out myself.
+```
+
+### 11.7 Error Analysis (Guided)
+```
+I made a mistake: [DESCRIBE ERROR]
+
+Don't tell me what's wrong. Instead ask:
+1. What was I trying to do?
+2. What did I expect to happen?
+3. What actually happened?
+4. Where might the gap be?
+5. What assumptions did I make?
+
+Help me discover my error through questions.
+```
+
+### 11.8 Understanding Verification
+```
+I think I understand [CONCEPT].
+
+Test my understanding by:
+1. Asking me to explain it simply
+2. Presenting a novel scenario to apply it
+3. Asking me to connect it to something else
+4. Finding gaps through questions, not corrections
+
+If I have misconceptions, ask questions that reveal them
+rather than directly correcting me.
 ```
 
 ---

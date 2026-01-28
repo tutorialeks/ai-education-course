@@ -260,6 +260,135 @@ Please:
 
 ---
 
+## 2.5 AI as Your Socratic Tutor
+
+The Socratic method builds deep understanding through questions rather than answers. Instead of giving you solutions, a Socratic tutor guides you to discover answers yourself through careful questioning. Here's how to configure any AI to be your private Socratic tutor.
+
+### The Master Socratic Tutor Prompt
+
+Use this prompt to transform any AI into a Socratic tutor:
+
+```
+You are my Socratic tutor for [SUBJECT/TOPIC].
+
+RULES YOU MUST FOLLOW:
+1. NEVER give me direct answers or solutions
+2. ALWAYS respond with questions that guide my thinking
+3. If I ask for an answer, ask me what I've tried first
+4. If I'm stuck, give hints as questions, not statements
+5. Only after 3+ failed attempts, offer a small nudge (still as a question)
+6. Celebrate when I figure things out myself
+
+When I present a problem or question:
+1. First ask me what I already know about this topic
+2. Ask what approaches I've considered
+3. Ask what's confusing me specifically
+4. Guide me with questions like:
+   - "What would happen if...?"
+   - "Have you considered...?"
+   - "What's the relationship between X and Y?"
+   - "Can you break this into smaller parts?"
+
+Start by asking me what I want to learn today.
+```
+
+### The "Show Your Work First" Prompt
+
+This prompt ensures you engage with material before getting help:
+
+```
+Before you help me with [TOPIC/PROBLEM], I need to show you my work.
+
+Here's what I understand so far:
+[YOUR CURRENT UNDERSTANDING]
+
+Here's what I've tried:
+[YOUR ATTEMPTS]
+
+Here's where I'm stuck:
+[SPECIFIC CONFUSION]
+
+Based on my attempt, ask me guiding questions to help me find the answer myself.
+Do NOT tell me the answer directly.
+```
+
+### Guided Discovery for Different Scenarios
+
+**Learning a New Concept:**
+```
+I want to understand [CONCEPT].
+
+Don't explain it to me. Instead:
+1. Ask me what I think it might mean based on the name
+2. Give me a simple scenario and ask what I notice
+3. Ask questions that lead me to discover the key principles
+4. Let me build my own definition before correcting any misconceptions
+```
+
+**Solving a Problem:**
+```
+I need to solve: [PROBLEM]
+
+Guide me Socratically:
+1. What type of problem does this look like to you?
+2. What similar problems have you solved?
+3. What's your first instinct for an approach?
+4. What information do you have? What do you need?
+
+Don't solve it. Help me discover the solution path through questions.
+```
+
+**Understanding a Text:**
+```
+I'm reading about [TOPIC]. Instead of summarizing, help me understand it:
+
+1. Ask me what I think the main point is
+2. Ask me to find evidence for my interpretation
+3. Question my assumptions
+4. Ask how this connects to what I already know
+5. Ask what questions I still have
+
+Build my comprehension through dialogue, not explanation.
+```
+
+### Progressive Hints System
+
+When you're truly stuck, use this escalating hint system:
+
+```
+I'm stuck on [PROBLEM]. I've already tried [ATTEMPTS].
+
+Give me progressive hints using this system:
+- Hint 1: A question that points me in the right direction
+- Hint 2: A question that narrows down the approach
+- Hint 3: A question that addresses my specific misconception
+- Hint 4: A very small nudge (still phrased as a question)
+- Hint 5: Only if absolutely necessary, reveal ONE small piece
+
+I'll ask for "next hint" when I need to progress.
+Start with Hint 1.
+```
+
+### When to Use Socratic Mode vs. Direct Help
+
+| Use Socratic Mode When | Use Direct Help When |
+|------------------------|---------------------|
+| Building foundational understanding | Need a quick fact or syntax |
+| You have time to think deeply | Deadline pressure is high |
+| Learning something for the long term | One-time reference lookup |
+| You want to develop problem-solving skills | Debugging trivial errors |
+| The concept has layers to uncover | The answer is truly arbitrary (conventions) |
+
+### Benefits of Socratic Learning
+
+1. **Deeper retention** - Understanding you built yourself sticks longer
+2. **Transferable skills** - Learn how to think, not just what to think
+3. **Confidence** - Solving problems yourself builds self-efficacy
+4. **Active engagement** - Questions keep you focused and alert
+5. **Reveals gaps** - Questions expose what you don't know yet
+
+---
+
 ## Practical Exercises
 
 ### Exercise 1: Create Your Learning Plan
@@ -274,6 +403,9 @@ Take the same concept and ask AI to explain it in three different learning style
 ### Exercise 4: Time Audit
 Before creating a schedule, track how you actually spend time for one week. Then use AI to help create a realistic schedule based on actual data, not wishful thinking.
 
+### Exercise 5: Socratic Session
+Choose a concept you want to understand deeply. Use the Master Socratic Tutor prompt and have a 15-minute conversation where you're only allowed to receive questions, not answers. Notice how much deeper your understanding becomes compared to just reading an explanation.
+
 ---
 
 ## Key Takeaways
@@ -283,6 +415,7 @@ Before creating a schedule, track how you actually spend time for one week. Then
 3. **Adapt to your style** - The best plan is one you'll actually follow
 4. **Build in reviews** - Forgetting is natural; plan for it
 5. **Adjust continuously** - Plans should evolve based on reality
+6. **Use Socratic tutoring** - Questions build deeper understanding than answers
 
 ---
 
